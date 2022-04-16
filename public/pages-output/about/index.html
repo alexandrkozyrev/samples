@@ -84,7 +84,12 @@
     </div>
     
     <h2 id="cljs-sample">CLJS sample</h2><pre><code class="klipse-cljs nohighlight">(map #(* % %) (range 10))
-</code></pre>
+</code></pre><h2 id="js-sample">JS sample</h2><pre><code class="klipse-js nohighlight">[1, 2, 3].map(function(x) { return x + 1; })
+</code></pre><h2 id="sql-sample">SQL sample</h2><pre><code class="klipse-sql nohighlight">CREATE TABLE play (game, points, day)
+</code></pre><h2 id="python-sample">Python sample</h2><pre><code class="klipse-python nohighlight">print(1 + 2)
+</code></pre><h2 id="markdown-sample">Markdown sample</h2><pre><code class="klipse-markdown nohighlight">#### header 4
+</code></pre><h2 id="hiccup-sample">Hiccup sample</h2><pre><code class="klipse-hiccup nohighlight">[:a {:href (to-uri "clojure.org")} "Clojure website"]
+</code></pre><p>TBD later ....</p>
 
     <div id="prev-next">
         
@@ -109,7 +114,12 @@
 <script>
 window.klipse_settings = {
   "selector" : ".klipse-cljs",
-  "selector_reagent" : ".klipse-reagent"
+  "selector_reagent" : ".klipse-reagent",
+  "selector_eval_js" : ".klipse-js",
+  "selector_pyodide" : ".klipse-python",
+  "selector_sql" : ".klipse-sql",
+  "selector_eval_markdown" : ".klipse-markdown",
+  "selector_render_hiccup" : ".klipse-hiccup"
 };
 </script>
 <script src="https://storage.googleapis.com/app.klipse.tech/plugin/js/klipse_plugin.js"></script> 

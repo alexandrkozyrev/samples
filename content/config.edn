@@ -30,6 +30,11 @@
  :collapse-subdirs?            false
  :hide-future-posts?           true
  :klipse                       {:settings {:selector ".klipse-cljs"
-                                           :selector-reagent ".klipse-reagent"}}
+                                           :selector-reagent ".klipse-reagent"
+                                           :selector-eval-js ".klipse-js"
+                                           :selector-pyodide ".klipse-python"
+                                           :selector-sql ".klipse-sql"
+                                           :selector-eval-markdown ".klipse-markdown"
+                                           :selector-render-hiccup ".klipse-hiccup"}}
  :description-include-elements #{:p :h1 :h2 :h3 :h4 :h5 :h6}
  :debug?                       false}
