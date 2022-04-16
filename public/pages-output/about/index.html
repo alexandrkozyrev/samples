@@ -10,9 +10,9 @@
     <title>My Awesome Blog: About</title>
     
 
-<meta name="description" content="Write something about somethingwow wow wow">
+<meta name="description" content="CLJS sample">
 
-<meta property="og:description" content="Write something about somethingwow wow wow">
+<meta property="og:description" content="CLJS sample">
 
 <meta property="og:url" content="http://blogawesome.com/pages-output/about/" />
 <meta property="og:title" content="About" />
@@ -83,7 +83,8 @@
         <h1>About</h1>
     </div>
     
-    <h2 id="write-something-about-something">Write something about something</h2><p>wow wow wow</p>
+    <h2 id="cljs-sample">CLJS sample</h2><pre><code class="klipse-cljs nohighlight">(map #(* % %) (range 10))
+</code></pre>
 
     <div id="prev-next">
         
@@ -104,6 +105,13 @@
 <script>hljs.initHighlightingOnLoad();</script>
 <script src="/js/scripts.js" type="application/javascript"></script>
 
-
+ <link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/app.klipse.tech/css/codemirror.css">
+<script>
+window.klipse_settings = {
+  "selector" : ".klipse-cljs",
+  "selector_reagent" : ".klipse-reagent"
+};
+</script>
+<script src="https://storage.googleapis.com/app.klipse.tech/plugin/js/klipse_plugin.js"></script> 
 </body>
 </html>

@@ -1,8 +1,11 @@
 {:title "About"
  :layout :page
  :page-index 0
+ :klipse true
  :navbar? true}
 
-## Write something about something
+## CLJS sample
 
-wow wow wow
+```klipse-cljs
+(map #(* % %) (range 10))
+```
